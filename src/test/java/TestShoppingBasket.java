@@ -23,4 +23,10 @@ public class TestShoppingBasket {
     public void basketHasItems() {
         assertEquals(2, basket.count());
     }
+
+    @Test
+    public void canRemoveItems() {
+        basket.remove(item2);
+        assertEquals(1, basket.count());
+    }
 }
