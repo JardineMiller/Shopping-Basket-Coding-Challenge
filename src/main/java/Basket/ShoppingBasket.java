@@ -43,4 +43,8 @@ public class ShoppingBasket {
         return this.items.size();
     }
 
+    public int discountSize() {
+        return this.discounts.size();
+    }
+
 }
