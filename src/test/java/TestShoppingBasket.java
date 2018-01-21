@@ -1,6 +1,7 @@
 import Basket.Item;
 import Basket.ShoppingBasket;
 import Discounts.TenPerCent;
+import Discounts.TwoPerCent;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -9,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class TestShoppingBasket {
     ShoppingBasket basket;
     TenPerCent tenPc;
+    TwoPerCent twoPc;
     Item item;
     Item item2;
 
@@ -16,6 +18,7 @@ public class TestShoppingBasket {
     public void before() {
         basket = new ShoppingBasket();
         tenPc = new TenPerCent();
+        twoPc = new TwoPerCent();
         item = new Item("pizza", 50.00);
         item2 = new Item("apple", 25.00);
         basket.scan(item);
@@ -35,6 +38,20 @@ public class TestShoppingBasket {
     }
 
     @Test
+    public void canEmptyBasket() {
+        basket.empty();
+        assertEquals(0, basket.count());
+    }
+
+    @Test
+    public void cantRemoveWhenEmpty() {
+        basket.remove(item);
+        basket.remove(item2);
+        basket.remove(item);
+        assertEquals(0, basket.count());
+    }
+
+    @Test
     public void canGetBasketValue() {
         assertEquals(75.00, basket.total(), 0.01);
     }
@@ -49,4 +66,16 @@ public class TestShoppingBasket {
         basket.removeDiscount(tenPc);
         assertEquals(0, basket.discountSize());
     }
+
+    @Test
+    public void canApplyDiscounts() {
+        assertEquals(67.50, basket.applyDiscounts(), 0.01);
+    }
+
+    @Test
+    public void canApplyMultipleDiscounts() {
+        basket.addDiscount(twoPc);
+        assertEquals(66.15, basket.applyDiscounts(), 0.01);
+    }
+
 }

@@ -15,10 +15,14 @@ public class ShoppingBasket {
 
     public double total() {
         double totalValue = 0;
-        for(int i = 0; i < items.size(); i++) {
-            totalValue += items.get(i).getPrice();
+        for(Item each : items) {
+            totalValue += each.getPrice();
         }
         return totalValue;
+    }
+
+    public void empty() {
+        this.items = new ArrayList<>();
     }
 
     public void scan(Item item) {
@@ -26,7 +30,7 @@ public class ShoppingBasket {
     }
 
     public void remove(Item item) {
-        if (items.contains(item)) {
+        if (items.contains(item) && this.discounts.size() > 0) {
             items.remove(item);
         }
     }
@@ -46,5 +50,15 @@ public class ShoppingBasket {
     public int discountSize() {
         return this.discounts.size();
     }
+
+    public double applyDiscounts() {
+        double discounted = this.total();
+        for(IDiscount each : discounts) {
+            discounted = each.applyDiscount(discounted);
+        }
+        return discounted;
+    }
+
+
 
 }

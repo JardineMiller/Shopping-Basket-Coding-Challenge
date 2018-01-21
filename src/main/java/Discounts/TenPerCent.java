@@ -7,9 +7,8 @@ import java.util.ArrayList;
 public class TenPerCent implements IDiscount {
     public double applyDiscount(double total) {
         if(total >= 20.00) {
-            return total * 0.90;
-        } else {
-            return total;
+            return total * 0.9;
         }
+        return total;
     }
 }
