@@ -5,13 +5,19 @@ import Basket.Item;
 import java.util.ArrayList;
 
 public class BOGOF implements IDiscount {
-    public double applyDiscount(ArrayList<Item> items, double total){
+
+    private ArrayList<String> getUniqueItems(ArrayList<Item> items) {
         ArrayList<String> uniqueItems = new ArrayList<>();
         for(Item item : items) {
             if(item.isBogof() && !uniqueItems.contains(item.getName())) {
                 uniqueItems.add((item.getName()));
             }
         }
+        return uniqueItems;
+    }
+
+    public double applyDiscount(ArrayList<Item> items, double total){
+        ArrayList<String> uniqueItems = getUniqueItems(items);
 
         if(uniqueItems.size() > 0) {
             int i = 0;
