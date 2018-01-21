@@ -26,11 +26,31 @@ public class TestDiscount {
         item2 = new Item("pizza", 50.00);
         basket.scan(item);
         basket.scan(item2);
-        basket.addDiscount(bogof);
     }
 
     @Test
     public void bogofWorks() {
+        basket.addDiscount(bogof);
         assertEquals(50.00, basket.applyDiscounts(), 0.01);
+    }
+
+    @Test
+    public void tenPerCentWorks() {
+        basket.addDiscount(tenPc);
+        assertEquals(90.00, basket.applyDiscounts(),0.01);
+    }
+
+    @Test
+    public void twoPerCentWorks() {
+        basket.addDiscount(twoPc);
+        assertEquals(98.00, basket.applyDiscounts(),0.01);
+    }
+
+    @Test
+    public void allDiscountsWork() {
+        basket.addDiscount(bogof);
+        basket.addDiscount(tenPc);
+        basket.addDiscount(twoPc);
+        assertEquals(44.10, basket.applyDiscounts(),0.01);
     }
 }
