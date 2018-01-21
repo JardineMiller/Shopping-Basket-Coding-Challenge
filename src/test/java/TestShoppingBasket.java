@@ -1,5 +1,6 @@
 import Basket.Item;
 import Basket.ShoppingBasket;
+import Discounts.BOGOF;
 import Discounts.TenPerCent;
 import Discounts.TwoPerCent;
 import org.junit.Before;
@@ -11,6 +12,7 @@ public class TestShoppingBasket {
     ShoppingBasket basket;
     TenPerCent tenPc;
     TwoPerCent twoPc;
+    BOGOF bogof;
     Item item;
     Item item2;
 
@@ -19,6 +21,7 @@ public class TestShoppingBasket {
         basket = new ShoppingBasket();
         tenPc = new TenPerCent();
         twoPc = new TwoPerCent();
+        bogof = new BOGOF();
         item = new Item("pizza", 50.00);
         item2 = new Item("apple", 25.00);
         basket.scan(item);

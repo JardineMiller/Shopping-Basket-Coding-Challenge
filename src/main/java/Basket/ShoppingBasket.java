@@ -54,7 +54,7 @@ public class ShoppingBasket {
     public double applyDiscounts() {
         double discounted = this.total();
         for(IDiscount each : discounts) {
-            discounted = each.applyDiscount(discounted);
+            discounted = each.applyDiscount(this.items, discounted);
         }
         return discounted;
     }
