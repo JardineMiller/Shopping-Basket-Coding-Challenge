@@ -5,10 +5,10 @@ public class Item {
     private String name;
     private boolean bogof;
 
-    public Item(String name, double price) {
+    public Item(String name, double price, boolean bogofStatus) {
         this.price = price;
         this.name = name;
-        this.bogof = false;
+        this.bogof = bogofStatus;
     }
 
     public double getPrice() {

@@ -22,16 +22,24 @@ public class TestDiscount {
         tenPc = new TenPerCent();
         twoPc = new TwoPerCent();
         bogof = new BOGOF();
-        item = new Item("pizza", 50.00);
-        item2 = new Item("pizza", 50.00);
+        item = new Item("pizza", 50.00, true);
+        item2 = new Item("pizza", 50.00, true);
         basket.scan(item);
         basket.scan(item2);
     }
 
     @Test
-    public void bogofWorks() {
+    public void bogofWorksBogofEnabled() {
         basket.addDiscount(bogof);
         assertEquals(50.00, basket.applyDiscounts(), 0.01);
+    }
+
+    @Test
+    public void bogofWorksBogofDisabled() {
+        basket.addDiscount(bogof);
+        item.setBogof(false);
+        item2.setBogof(false);
+        assertEquals(100.00, basket.applyDiscounts(), 0.01);
     }
 
     @Test

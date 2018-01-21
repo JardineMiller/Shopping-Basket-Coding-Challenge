@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f1923a9-cef3-4b87-8e6c-b01ef7e7ebd2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TestDiscount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TestShoppingBasket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basket/Item.java" afterPath="$PROJECT_DIR$/src/main/java/Basket/Item.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java" afterPath="$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestDiscount.java" afterPath="$PROJECT_DIR$/src/test/java/TestDiscount.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestShoppingBasket.java" afterPath="$PROJECT_DIR$/src/test/java/TestShoppingBasket.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,7 +29,7 @@
       <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basket/ShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1164">
+            <state relative-caret-position="440">
               <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,18 +53,18 @@
       <file leaf-file-name="TestShoppingBasket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="-442">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOGOF.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BOGOF.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="315">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDiscount.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestDiscount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestDiscount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="756">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,17 +123,16 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Basket/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding>
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -451,12 +455,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Discounts/tenPerCent.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discounts/twoPerCent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Basket/Item.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestShoppingBasket.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discounts/TwoPerCent.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discounts/TenPerCent.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discounts/IDiscount.java" />
         <option value="$PROJECT_DIR$/src/main/java/Basket/ShoppingBasket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Basket/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestShoppingBasket.java" />
         <option value="$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDiscount.java" />
       </list>
@@ -564,7 +568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDiscount.allDiscountsWork">
+  <component name="RunManager" selected="JUnit.TestDiscount.bogofWorksBogofDisabled">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -645,14 +649,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestDiscount.tenPerCentWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDiscount.bogofWorksBogofDisabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ShoppingBasket_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestDiscount" />
-      <option name="METHOD_NAME" value="tenPerCentWorks" />
+      <option name="METHOD_NAME" value="bogofWorksBogofDisabled" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -748,17 +752,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestShoppingBasket" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestDiscount.bogofWorks" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDiscount.tenPerCentWorks" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDiscount" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDiscount.allDiscountsWork" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestDiscount" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDiscount.allDiscountsWork" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDiscount.bogofWorksBogofDisabled" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDiscount.allDiscountsWork" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestShoppingBasket" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestDiscount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestDiscount.tenPerCentWorks" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDiscount.bogofWorks" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDiscount.bogofWorksBogofDisabled" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestDiscount.bogofWorks" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestDiscount.allDiscountsWork" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestShoppingBasket" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDiscount" />
       </list>
     </recent_temporary>
   </component>
@@ -785,26 +789,26 @@
     <history-entry file="TestDiscount - 2018.01.21 at 15h 46m 12s.xml">
       <configuration name="TestDiscount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 15h 36m 48s.xml">
-      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 15h 37m 29s.xml">
-      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 15h 42m 11s.xml">
-      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
+    <history-entry file="TestDiscount_allDiscountsWork - 2018.01.21 at 15h 47m 39s.xml">
+      <configuration name="TestDiscount.allDiscountsWork" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 15h 46m 01s.xml">
       <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDiscount_tenPerCentWorks - 2018.01.21 at 15h 44m 05s.xml">
-      <configuration name="TestDiscount.tenPerCentWorks" configurationId="JUnit" />
+    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 15h 58m 30s.xml">
+      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDiscount_tenPerCentWorks - 2018.01.21 at 15h 44m 22s.xml">
-      <configuration name="TestDiscount.tenPerCentWorks" configurationId="JUnit" />
+    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 16h 00m 41s.xml">
+      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestShoppingBasket - 2018.01.21 at 15h 44m 35s.xml">
-      <configuration name="TestShoppingBasket" configurationId="JUnit" />
+    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 16h 02m 36s.xml">
+      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDiscount_bogofWorks - 2018.01.21 at 16h 02m 47s.xml">
+      <configuration name="TestDiscount.bogofWorks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDiscount_bogofWorksBogofDisabled - 2018.01.21 at 16h 03m 29s.xml">
+      <configuration name="TestDiscount.bogofWorksBogofDisabled" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestShoppingBasket - 2018.01.21 at 15h 46m 17s.xml">
       <configuration name="TestShoppingBasket" configurationId="JUnit" />
@@ -879,36 +883,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Basket/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Discounts/IDiscount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -929,9 +908,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Discounts/TwoPerCent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Basket/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1164">
+        <state relative-caret-position="440">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -951,22 +942,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Discounts/TwoPerCent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Basket/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestDiscount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="756">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,26 +970,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="-442">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestDiscount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Discounts/BOGOF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -22,8 +22,8 @@ public class TestShoppingBasket {
         tenPc = new TenPerCent();
         twoPc = new TwoPerCent();
         bogof = new BOGOF();
-        item = new Item("pizza", 50.00);
-        item2 = new Item("apple", 25.00);
+        item = new Item("pizza", 50.00, false);
+        item2 = new Item("apple", 25.00, false);
         basket.scan(item);
         basket.scan(item2);
         basket.addDiscount(tenPc);
