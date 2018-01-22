@@ -6,25 +6,25 @@ import java.util.ArrayList;
 
 public class BOGOF implements IDiscount {
 
-    private ArrayList<String> getUniqueItems(ArrayList<Item> items) {
-        ArrayList<String> uniqueItems = new ArrayList<>();
+    private ArrayList<Item> getUniqueItems(ArrayList<Item> items) {
+        ArrayList<Item> uniqueItems = new ArrayList<>();
         for(Item item : items) {
-            if(item.isBogof() && !uniqueItems.contains(item.getName())) {
-                uniqueItems.add((item.getName()));
+            if(item.isBogof() && !uniqueItems.contains(item)) {
+                uniqueItems.add(item);
             }
         }
         return uniqueItems;
     }
 
     public double applyDiscount(ArrayList<Item> items, double total){
-        ArrayList<String> uniqueItems = getUniqueItems(items);
+        ArrayList<Item> uniqueItems = getUniqueItems(items);
 
         if(uniqueItems.size() > 0) {
             int i = 0;
             double discountedTotal = 0;
-            for (String uniqueItem : uniqueItems) {
+            for (Item uniqueItem : uniqueItems) {
                 for (Item item : items) {
-                    if (uniqueItem.equals(item.getName())) {
+                    if (uniqueItem.equals(item)) {
                         discountedTotal += item.getPrice();
                         i++;
                     }
